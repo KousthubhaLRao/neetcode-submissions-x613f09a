@@ -103,6 +103,7 @@ Check jobs in database:
 hello
 
 ```
+docker exec -it half-clutch-jenkins-postgres-1 psql -U jenkins -d jenkins_db
 ```
 
 ```
